@@ -177,7 +177,7 @@ for i=1:length(rho_int_l)
     rho_int_l[i] = operator_recast(rho_int_l[i])
 end
 
-filename = "hr_scan_$(hr1)_$(hr2).h5"
+filename = "data/hr_scan_$(hr1)_$(hr2).h5"
 h5open(filename, "w") do file
     write(file, "n", parsed_args["n"])
     write(file, "hr1", hr1)
