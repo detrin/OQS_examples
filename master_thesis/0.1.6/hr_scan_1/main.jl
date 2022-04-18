@@ -13,6 +13,7 @@ s = ArgParseSettings()
         arg_type = Int32
 end
 parsed_args = parse_args(s)
+println("n ", parsed_args["n"])
 
 hr1_i = parsed_args["n"] % 10 + 1
 hr2_i = parsed_args["n"] ÷ 10 + 1
