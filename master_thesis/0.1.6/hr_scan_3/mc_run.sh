@@ -26,6 +26,7 @@ echo $HOSTNAME
 source update_julia.sh
 
 echo $(ls)
+mkdir -p data
 julia main.jl -n $n
 # cp data/*.h5 $DATADIR/data/
 
