@@ -16,7 +16,7 @@ cd $SCRATCHDIR
 echo $(pwd)
 
 cp $DATADIR/main.jl main.jl
-cp $DATADIR/update_julia.jl update_julia.sh
+cp $DATADIR/update_julia.sh update_julia.sh
 chmod +x update_julia.sh
 source update_julia.sh
 
