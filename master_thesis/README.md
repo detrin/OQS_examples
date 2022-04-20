@@ -19,5 +19,6 @@ tmux -u -2 -f /usr/share/byobu/profiles/tmuxrc new-session -n - /usr/bin/byobu-s
 
 # Meta Centrum
 ```
-seq 0 99 | xargs -I{} qsub -v n={} mc_run.sh
+seq 0 99 | xargs -I{} qsub -v n={} -N j.hr_scan_3_{} mc_run.sh
+seq 0 099| xargs -I{} qsub -v n={} -N j.hr_scan_3_{} mc_run.sh > submited_jobs
 ```
