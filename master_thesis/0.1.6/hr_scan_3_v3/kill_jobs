@@ -1,0 +1,172 @@
+10877631.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		j.hr_scan_0.2 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	03.04.22 	16:00
+11137774.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	1gb 	25% 	mc_run.sh 	00:08:08 	81% 	00:10:05 	1% 	R - běží 	elmo3-1/24 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:44
+11137774.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:44
+11137781.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	984mb 	24% 	mc_run.sh 	00:03:08 	94% 	00:03:19 	0% 	R - běží 	elmo3-6/15 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137781.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137782.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137782.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137783.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137783.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137784.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137784.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137785.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137785.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137786.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	787mb 	19% 	mc_run.sh 	00:02:18 	68% 	00:03:24 	0% 	R - běží 	elmo4-4/2 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137786.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137787.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	770mb 	19% 	mc_run.sh 	00:02:19 	69% 	00:03:21 	0% 	R - běží 	elmo4-4/3 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137787.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137788.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	754mb 	18% 	mc_run.sh 	00:02:18 	69% 	00:03:20 	0% 	R - běží 	elmo4-4/4 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137788.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137789.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	834mb 	20% 	mc_run.sh 	00:02:18 	69% 	00:03:21 	0% 	R - běží 	elmo4-4/5 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137789.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137790.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	825mb 	20% 	mc_run.sh 	00:02:16 	69% 	00:03:18 	0% 	R - běží 	elmo4-4/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137790.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137791.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	799mb 	20% 	mc_run.sh 	00:01:47 	54% 	00:03:17 	0% 	R - běží 	elmo4-3/2 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137791.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137792.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137792.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137793.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137793.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137794.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	974mb 	24% 	mc_run.sh 	00:02:50 	85% 	00:03:19 	0% 	R - běží 	elmo5-16/3 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137794.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137795.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	962mb 	23% 	mc_run.sh 	00:02:42 	82% 	00:03:18 	0% 	R - běží 	elmo5-23/3 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137795.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137796.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	803mb 	20% 	mc_run.sh 	00:01:33 	47% 	00:03:18 	0% 	R - běží 	elmo5-25/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137796.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137797.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	791mb 	19% 	mc_run.sh 	00:01:35 	48% 	00:03:19 	0% 	R - běží 	elmo5-19/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137797.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137798.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	801mb 	20% 	mc_run.sh 	00:01:52 	57% 	00:03:18 	0% 	R - běží 	elmo5-20/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137798.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137799.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	797mb 	19% 	mc_run.sh 	00:01:12 	36% 	00:03:20 	0% 	R - běží 	elmo5-22/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137799.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137800.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	838mb 	20% 	mc_run.sh 	00:02:55 	88% 	00:03:19 	0% 	R - běží 	elmo5-21/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137800.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137801.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	798mb 	19% 	mc_run.sh 	00:01:54 	58% 	00:03:17 	0% 	R - běží 	elmo5-17/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137801.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137802.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	830mb 	20% 	mc_run.sh 	00:02:19 	71% 	00:03:17 	0% 	R - běží 	elmo5-15/6 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137802.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137803.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137803.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137804.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	878mb 	21% 	mc_run.sh 	00:02:47 	84% 	00:03:18 	0% 	R - běží 	elmo5-27/10 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137804.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137805.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	875mb 	21% 	mc_run.sh 	00:02:47 	85% 	00:03:17 	0% 	R - běží 	elmo5-27/11 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137805.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137806.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137806.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137807.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137807.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137808.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137808.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137809.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137809.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137810.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137810.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137811.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137811.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137812.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137812.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137813.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137813.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137814.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137814.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137815.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137815.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137816.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137816.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137817.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137817.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137818.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137818.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137819.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137819.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137820.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137820.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137821.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137821.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137822.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137822.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137823.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137823.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137824.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137824.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137825.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137825.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137826.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137826.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137827.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137827.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137828.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137828.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137829.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137829.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137830.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137830.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137831.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137831.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137832.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137832.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137833.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137833.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137834.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137834.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137835.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137835.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137836.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137836.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137837.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137837.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137838.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137838.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137839.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137839.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137840.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137840.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137841.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137841.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137842.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137842.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137843.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137843.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137844.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 		mc_run.sh 	00:00:00 		00:00:00 		E - končí 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137844.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137845.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137845.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137846.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137846.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137847.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137847.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137848.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 	00:00:00 	0% 	00:00:00 	0% 	F - dokončena (exit -2) 		global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137848.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137849.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 		0% 		0% 	R - běží 	elmo1-4/3 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137849.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					M - přesunuta 		global@elixir-pbs.elixir-czech.cz@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137850.meta-pbs.metacentrum.cz 	elixir 	1 	4gb 	0b 	0% 	mc_run.sh 		0% 		0% 	R - běží 	elmo2-1/2 	global@elixir-pbs.elixir-czech.cz 	19.04.22 	14:52
+11137850.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137851.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137852.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137853.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137854.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137855.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137856.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137857.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137858.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137859.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137860.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137861.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137862.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137863.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137864.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137865.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137866.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137867.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137868.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137869.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137870.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137871.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137872.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137873.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137874.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137875.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137876.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137877.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137878.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
+11137879.meta-pbs.metacentrum.cz 	meta 	1 	4gb 	0b 		mc_run.sh 					Q - ve frontě 		q_1d@meta-pbs.metacentrum.cz 	19.04.22 	14:52
