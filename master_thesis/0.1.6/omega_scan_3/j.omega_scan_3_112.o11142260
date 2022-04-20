@@ -1,0 +1,18 @@
+elmo3-2.hw.elixir-czech.cz
+elmo3-2.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/omega_scan_3
+elmo3-2.hw.elixir-czech.cz
+data j.omega_scan_3_0.e11142148 j.omega_scan_3_0.o11142148 j.omega_scan_3_1.e11142149 j.omega_scan_3_1.o11142149 j.omega_scan_3_10.e11142158 j.omega_scan_3_10.o11142158 j.omega_scan_3_11.e11142159 j.omega_scan_3_11.o11142159 j.omega_scan_3_12.e11142160 j.omega_scan_3_12.o11142160 j.omega_scan_3_13.e11142161 j.omega_scan_3_13.o11142161 j.omega_scan_3_14.e11142162 j.omega_scan_3_14.o11142162 j.omega_scan_3_15.e11142163 j.omega_scan_3_15.o11142163 j.omega_scan_3_16.e11142164 j.omega_scan_3_16.o11142164 j.omega_scan_3_17.e11142165 j.omega_scan_3_17.o11142165 j.omega_scan_3_18.e11142166 j.omega_scan_3_18.o11142166 j.omega_scan_3_19.e11142167 j.omega_scan_3_19.o11142167 j.omega_scan_3_2.e11142150 j.omega_scan_3_2.o11142150 j.omega_scan_3_20.e11142168 j.omega_scan_3_20.o11142168 j.omega_scan_3_21.e11142169 j.omega_scan_3_21.o11142169 j.omega_scan_3_22.e11142170 j.omega_scan_3_22.o11142170 j.omega_scan_3_23.e11142171 j.omega_scan_3_23.o11142171 j.omega_scan_3_24.e11142172 j.omega_scan_3_24.o11142172 j.omega_scan_3_25.e11142173 j.omega_scan_3_25.o11142173 j.omega_scan_3_26.e11142174 j.omega_scan_3_26.o11142174 j.omega_scan_3_27.e11142175 j.omega_scan_3_27.o11142175 j.omega_scan_3_28.e11142176 j.omega_scan_3_28.o11142176 j.omega_scan_3_29.e11142177 j.omega_scan_3_29.o11142177 j.omega_scan_3_3.e11142151 j.omega_scan_3_3.o11142151 j.omega_scan_3_30.e11142178 j.omega_scan_3_30.o11142178 j.omega_scan_3_31.e11142179 j.omega_scan_3_31.o11142179 j.omega_scan_3_33.e11142181 j.omega_scan_3_33.o11142181 j.omega_scan_3_34.e11142182 j.omega_scan_3_34.o11142182 j.omega_scan_3_35.e11142183 j.omega_scan_3_35.o11142183 j.omega_scan_3_36.e11142184 j.omega_scan_3_36.o11142184 j.omega_scan_3_37.e11142185 j.omega_scan_3_37.o11142185 j.omega_scan_3_38.e11142186 j.omega_scan_3_38.o11142186 j.omega_scan_3_39.e11142187 j.omega_scan_3_39.o11142187 j.omega_scan_3_4.e11142152 j.omega_scan_3_4.o11142152 j.omega_scan_3_40.e11142188 j.omega_scan_3_40.o11142188 j.omega_scan_3_41.e11142189 j.omega_scan_3_41.o11142189 j.omega_scan_3_44.e11142192 j.omega_scan_3_44.o11142192 j.omega_scan_3_45.e11142193 j.omega_scan_3_45.o11142193 j.omega_scan_3_47.e11142195 j.omega_scan_3_47.o11142195 j.omega_scan_3_48.e11142196 j.omega_scan_3_48.o11142196 j.omega_scan_3_49.e11142197 j.omega_scan_3_49.o11142197 j.omega_scan_3_5.e11142153 j.omega_scan_3_5.o11142153 j.omega_scan_3_51.e11142199 j.omega_scan_3_51.o11142199 j.omega_scan_3_55.e11142203 j.omega_scan_3_55.o11142203 j.omega_scan_3_56.e11142204 j.omega_scan_3_56.o11142204 j.omega_scan_3_57.e11142205 j.omega_scan_3_57.o11142205 j.omega_scan_3_58.e11142206 j.omega_scan_3_58.o11142206 j.omega_scan_3_59.e11142207 j.omega_scan_3_59.o11142207 j.omega_scan_3_6.e11142154 j.omega_scan_3_6.o11142154 j.omega_scan_3_7.e11142155 j.omega_scan_3_7.o11142155 j.omega_scan_3_8.e11142156 j.omega_scan_3_8.o11142156 j.omega_scan_3_9.e11142157 j.omega_scan_3_9.o11142157 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 112
+hr1 170.0
+hr2 250.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

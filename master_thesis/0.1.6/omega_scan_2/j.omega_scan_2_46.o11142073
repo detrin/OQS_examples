@@ -1,0 +1,18 @@
+elmo3-6.hw.elixir-czech.cz
+elmo3-6.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/omega_scan_2
+elmo3-6.hw.elixir-czech.cz
+data j.omega_scan_2_0.e11142027 j.omega_scan_2_0.o11142027 j.omega_scan_2_1.e11142028 j.omega_scan_2_1.o11142028 j.omega_scan_2_10.e11142037 j.omega_scan_2_10.o11142037 j.omega_scan_2_11.e11142038 j.omega_scan_2_11.o11142038 j.omega_scan_2_12.e11142039 j.omega_scan_2_12.o11142039 j.omega_scan_2_13.e11142040 j.omega_scan_2_13.o11142040 j.omega_scan_2_14.e11142041 j.omega_scan_2_14.o11142041 j.omega_scan_2_15.e11142042 j.omega_scan_2_15.o11142042 j.omega_scan_2_16.e11142043 j.omega_scan_2_16.o11142043 j.omega_scan_2_17.e11142044 j.omega_scan_2_17.o11142044 j.omega_scan_2_18.e11142045 j.omega_scan_2_18.o11142045 j.omega_scan_2_19.e11142046 j.omega_scan_2_19.o11142046 j.omega_scan_2_2.e11142029 j.omega_scan_2_2.o11142029 j.omega_scan_2_20.e11142047 j.omega_scan_2_20.o11142047 j.omega_scan_2_21.e11142048 j.omega_scan_2_21.o11142048 j.omega_scan_2_3.e11142030 j.omega_scan_2_3.o11142030 j.omega_scan_2_4.e11142031 j.omega_scan_2_4.o11142031 j.omega_scan_2_5.e11142032 j.omega_scan_2_5.o11142032 j.omega_scan_2_6.e11142033 j.omega_scan_2_6.o11142033 j.omega_scan_2_7.e11142034 j.omega_scan_2_7.o11142034 j.omega_scan_2_8.e11142035 j.omega_scan_2_8.o11142035 j.omega_scan_2_9.e11142036 j.omega_scan_2_9.o11142036 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 46
+hr1 170.0
+hr2 190.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

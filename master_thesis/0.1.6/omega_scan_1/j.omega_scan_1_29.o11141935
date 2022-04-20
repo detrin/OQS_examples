@@ -1,0 +1,18 @@
+elmo5-19.hw.elixir-czech.cz
+elmo5-19.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/omega_scan_1
+elmo5-19.hw.elixir-czech.cz
+data j.omega_scan_1_0.e11141906 j.omega_scan_1_0.o11141906 j.omega_scan_1_101.e11142007 j.omega_scan_1_101.o11142007 j.omega_scan_1_102.e11142008 j.omega_scan_1_102.o11142008 j.omega_scan_1_21.e11141927 j.omega_scan_1_21.o11141927 j.omega_scan_1_28.e11141934 j.omega_scan_1_28.o11141934 j.omega_scan_1_30.e11141936 j.omega_scan_1_30.o11141936 j.omega_scan_1_44.e11141950 j.omega_scan_1_44.o11141950 j.omega_scan_1_49.o11141955 j.omega_scan_1_53.e11141959 j.omega_scan_1_53.o11141959 j.omega_scan_1_70.e11141976 j.omega_scan_1_70.o11141976 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 29
+hr1 220.0
+hr2 170.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

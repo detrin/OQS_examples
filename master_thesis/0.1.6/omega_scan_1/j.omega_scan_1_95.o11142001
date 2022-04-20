@@ -1,0 +1,18 @@
+elmo5-21.hw.elixir-czech.cz
+elmo5-21.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/omega_scan_1
+elmo5-21.hw.elixir-czech.cz
+data j.omega_scan_1_0.e11141906 j.omega_scan_1_0.o11141906 j.omega_scan_1_101.e11142007 j.omega_scan_1_101.o11142007 j.omega_scan_1_102.e11142008 j.omega_scan_1_102.o11142008 j.omega_scan_1_103.e11142009 j.omega_scan_1_103.o11142009 j.omega_scan_1_104.e11142010 j.omega_scan_1_104.o11142010 j.omega_scan_1_105.e11142011 j.omega_scan_1_105.o11142011 j.omega_scan_1_106.e11142012 j.omega_scan_1_106.o11142012 j.omega_scan_1_107.e11142013 j.omega_scan_1_107.o11142013 j.omega_scan_1_13.e11141919 j.omega_scan_1_13.o11141919 j.omega_scan_1_21.e11141927 j.omega_scan_1_21.o11141927 j.omega_scan_1_28.e11141934 j.omega_scan_1_28.o11141934 j.omega_scan_1_30.e11141936 j.omega_scan_1_30.o11141936 j.omega_scan_1_31.e11141937 j.omega_scan_1_31.o11141937 j.omega_scan_1_32.e11141938 j.omega_scan_1_32.o11141938 j.omega_scan_1_33.e11141939 j.omega_scan_1_33.o11141939 j.omega_scan_1_34.e11141940 j.omega_scan_1_34.o11141940 j.omega_scan_1_35.e11141941 j.omega_scan_1_35.o11141941 j.omega_scan_1_36.e11141942 j.omega_scan_1_36.o11141942 j.omega_scan_1_37.e11141943 j.omega_scan_1_37.o11141943 j.omega_scan_1_38.e11141944 j.omega_scan_1_38.o11141944 j.omega_scan_1_40.e11141946 j.omega_scan_1_40.o11141946 j.omega_scan_1_44.e11141950 j.omega_scan_1_44.o11141950 j.omega_scan_1_48.e11141954 j.omega_scan_1_48.o11141954 j.omega_scan_1_49.e11141955 j.omega_scan_1_49.o11141955 j.omega_scan_1_50.e11141956 j.omega_scan_1_50.o11141956 j.omega_scan_1_51.e11141957 j.omega_scan_1_51.o11141957 j.omega_scan_1_52.e11141958 j.omega_scan_1_52.o11141958 j.omega_scan_1_53.e11141959 j.omega_scan_1_53.o11141959 j.omega_scan_1_54.e11141960 j.omega_scan_1_54.o11141960 j.omega_scan_1_55.e11141961 j.omega_scan_1_55.o11141961 j.omega_scan_1_56.e11141962 j.omega_scan_1_56.o11141962 j.omega_scan_1_57.e11141963 j.omega_scan_1_57.o11141963 j.omega_scan_1_58.e11141964 j.omega_scan_1_58.o11141964 j.omega_scan_1_59.e11141965 j.omega_scan_1_59.o11141965 j.omega_scan_1_6.e11141912 j.omega_scan_1_6.o11141912 j.omega_scan_1_63.e11141969 j.omega_scan_1_63.o11141969 j.omega_scan_1_64.e11141970 j.omega_scan_1_64.o11141970 j.omega_scan_1_66.e11141972 j.omega_scan_1_66.o11141972 j.omega_scan_1_68.e11141974 j.omega_scan_1_68.o11141974 j.omega_scan_1_69.e11141975 j.omega_scan_1_69.o11141975 j.omega_scan_1_70.e11141976 j.omega_scan_1_70.o11141976 j.omega_scan_1_71.e11141977 j.omega_scan_1_71.o11141977 j.omega_scan_1_72.e11141978 j.omega_scan_1_72.o11141978 j.omega_scan_1_74.e11141980 j.omega_scan_1_74.o11141980 j.omega_scan_1_75.e11141981 j.omega_scan_1_75.o11141981 j.omega_scan_1_76.e11141982 j.omega_scan_1_76.o11141982 j.omega_scan_1_77.e11141983 j.omega_scan_1_77.o11141983 j.omega_scan_1_86.e11141992 j.omega_scan_1_86.o11141992 j.omega_scan_1_87.e11141993 j.omega_scan_1_87.o11141993 j.omega_scan_1_88.e11141994 j.omega_scan_1_88.o11141994 j.omega_scan_1_91.e11141997 j.omega_scan_1_91.o11141997 j.omega_scan_1_92.e11141998 j.omega_scan_1_92.o11141998 j.omega_scan_1_93.e11141999 j.omega_scan_1_93.o11141999 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 95
+hr1 220.0
+hr2 230.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

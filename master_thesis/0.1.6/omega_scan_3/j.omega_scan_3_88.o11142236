@@ -1,0 +1,18 @@
+elmo3-1.hw.elixir-czech.cz
+elmo3-1.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/omega_scan_3
+elmo3-1.hw.elixir-czech.cz
+data j.omega_scan_3_0.e11142148 j.omega_scan_3_0.o11142148 j.omega_scan_3_10.e11142158 j.omega_scan_3_10.o11142158 j.omega_scan_3_11.e11142159 j.omega_scan_3_11.o11142159 j.omega_scan_3_12.e11142160 j.omega_scan_3_12.o11142160 j.omega_scan_3_13.e11142161 j.omega_scan_3_13.o11142161 j.omega_scan_3_14.e11142162 j.omega_scan_3_14.o11142162 j.omega_scan_3_15.e11142163 j.omega_scan_3_15.o11142163 j.omega_scan_3_16.e11142164 j.omega_scan_3_16.o11142164 j.omega_scan_3_17.e11142165 j.omega_scan_3_17.o11142165 j.omega_scan_3_19.e11142167 j.omega_scan_3_19.o11142167 j.omega_scan_3_2.e11142150 j.omega_scan_3_2.o11142150 j.omega_scan_3_20.e11142168 j.omega_scan_3_20.o11142168 j.omega_scan_3_21.e11142169 j.omega_scan_3_21.o11142169 j.omega_scan_3_22.e11142170 j.omega_scan_3_22.o11142170 j.omega_scan_3_23.e11142171 j.omega_scan_3_23.o11142171 j.omega_scan_3_24.e11142172 j.omega_scan_3_24.o11142172 j.omega_scan_3_25.e11142173 j.omega_scan_3_25.o11142173 j.omega_scan_3_26.e11142174 j.omega_scan_3_26.o11142174 j.omega_scan_3_27.e11142175 j.omega_scan_3_27.o11142175 j.omega_scan_3_28.e11142176 j.omega_scan_3_28.o11142176 j.omega_scan_3_29.e11142177 j.omega_scan_3_29.o11142177 j.omega_scan_3_3.e11142151 j.omega_scan_3_3.o11142151 j.omega_scan_3_4.e11142152 j.omega_scan_3_4.o11142152 j.omega_scan_3_41.e11142189 j.omega_scan_3_41.o11142189 j.omega_scan_3_5.e11142153 j.omega_scan_3_5.o11142153 j.omega_scan_3_6.e11142154 j.omega_scan_3_6.o11142154 j.omega_scan_3_8.e11142156 j.omega_scan_3_8.o11142156 j.omega_scan_3_9.e11142157 j.omega_scan_3_9.o11142157 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 88
+hr1 150.0
+hr2 230.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...
