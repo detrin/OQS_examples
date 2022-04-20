@@ -24,8 +24,8 @@ println("DeltaE ", DeltaE)
 println("J ", J)
 
 mols = [
-        Molecule([Mode(omega=omega1, hr_factor=0.5)], 3, [0., 12500.0+DeltaE]),
-        Molecule([Mode(omega=omega2, hr_factor=0.5)], 3, [0., 12500.])
+        Molecule([Mode(omega=200., hr_factor=0.5)], 3, [0., 12500.0+DeltaE]),
+        Molecule([Mode(omega=200., hr_factor=0.5)], 3, [0., 12500.])
     ]
 
 aggCore = AggregateCore(mols)
