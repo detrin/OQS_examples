@@ -25,4 +25,5 @@ tmux -u -2 -f /usr/share/byobu/profiles/tmuxrc new-session -n - /usr/bin/byobu-s
 ```
 seq 0 99 | xargs -I{} qsub -v n={} -N j.hr_scan_3_{} mc_run.sh
 seq 0 99 | xargs -I{} qsub -v n={} -N j.hr_scan_3_{} mc_run.sh > submited_jobs
+ls data | cut -d_ -f2 | cut -d. -f1 | sort -n | awk '{for(i=p+1; i<$1; i++) print i} {p=$1}' > resubmit_job
 ```
