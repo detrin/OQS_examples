@@ -1,1 +1,0 @@
-fpath+=$HOME/.zsh/pure
