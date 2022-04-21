@@ -8,6 +8,7 @@ ssh u-pl2 "ulimit -t unlimited; source ~/.bashrc; cd ~/Mgr/OQS_examples/master_t
 seq 1 ssh u-pl2 "ulimit -t unlimited; source ~/.bashrc; cd ~/Mgr/OQS_examples/master_thesis/0.1.6/hr_scan_1_v2; seqc 0 99 20 0 | xargs -I{} ~/bin/julia-1.7.2/bin/julia main.jl -n {}"
 seq 0 19 | xargs -P20 -I[] ssh u-pl[] "ulimit -t unlimited; source ~/.bashrc; cd ~/Mgr/OQS_examples/master_thesis/0.1.6/hr_scan_1_v2; seqc 0 99 20 [] | xargs -I{} ~/bin/julia-1.7.2/bin/julia main.jl -n {}"
 seq 0 19 | xargs -P20 -I[] bash -c "sleep []m; ssh u-pl[] \"ulimit -t unlimited; source ~/.bashrc; cd ~/Mgr/OQS_examples/master_thesis/0.1.6/hr_scan_1_v2; seqc 0 99 20 [] | xargs -I{} ~/bin/julia-1.7.2/bin/julia main.jl -n {}\""
+seq 0 4 | xargs -P20 -I[] bash -c "sleep []m; ssh u-pl[] \"ulimit -t unlimited; source ~/.bashrc; cd ~/Mgr/OQS_examples/master_thesis/0.1.6/showroom; ~/bin/julia-1.7.2/bin/julia run_[].jl\""
 ```
 
 # git
