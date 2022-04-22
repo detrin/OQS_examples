@@ -22,7 +22,7 @@ aggCore = agg.core
 aggTools = agg.tools
 aggOperators = agg.operators
 
-tspan = get_tspan(0., 1., 5000)
+tspan = get_tspan(0., 0.3, 5000)
 W0, rho0, W0_bath = ultrafast_laser_excitation(10., [0., 0.7, 0.3], agg)
 elLen = aggCore.molCount+1
 
