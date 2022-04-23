@@ -1,0 +1,106 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+ERROR: GitError(Code:ELOCKED, Class:Index, the index is locked; this might be due to a concurrent or crashed process)
+Stacktrace:
+  [1] macro expansion
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/error.jl:110 [inlined]
+  [2] checkout_tree(repo::LibGit2.GitRepo, obj::LibGit2.GitTree; options::LibGit2.CheckoutOptions)
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/repository.jl:358
+  [3] checkout_tree_to_path(repo::LibGit2.GitRepo, tree::LibGit2.GitTree, path::String)
+    @ Pkg.GitTools /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/GitTools.jl:84
+  [4] (::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String})(repo::LibGit2.GitRepo)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:723
+  [5] with(f::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String}, obj::LibGit2.GitRepo)
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/types.jl:1150
+  [6] handle_repo_add!(ctx::Pkg.Types.Context, pkg::Pkg.Types.PackageSpec)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:676
+  [7] handle_repos_add!(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:743
+  [8] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:248
+  [9] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:149
+ [10] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [11] #add#26
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [12] add
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [13] add(; name::Nothing, uuid::Nothing, version::Nothing, url::String, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:166
+ [14] top-level scope
+    @ none:1
+ERROR: Unexpected end of data : General.tar
+ERROR: EOFError: read end of file
+Stacktrace:
+  [1] (::Base.var"#wait_locked#645")(s::Base.PipeEndpoint, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:892
+  [2] unsafe_read(s::Base.PipeEndpoint, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:900
+  [3] unsafe_read(io::Base.Process, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./io.jl:367
+  [4] unsafe_read
+    @ ./io.jl:724 [inlined]
+  [5] read!
+    @ ./io.jl:742 [inlined]
+  [6] read_data(tar::Base.Process; size::Int64, buf::Vector{UInt8}, tee::Base.DevNull)
+    @ Tar /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:739
+  [7] read_standard_header(io::Base.Process; buf::Vector{UInt8}, tee::Base.DevNull)
+    @ Tar /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:575
+  [8] #read_header#50
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:415 [inlined]
+  [9] read_tarball(callback::Pkg.Registry.var"#12#15"{Base.Process, IOBuffer, Vector{UInt8}, Dict{String, String}}, predicate::Pkg.Registry.var"#13#16", tar::Base.Process; buf::Vector{UInt8}, skeleton::Base.DevNull)
+    @ Tar /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:345
+ [10] #11
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:199 [inlined]
+ [11] open(::Pkg.Registry.var"#11#14"{IOBuffer, Vector{UInt8}, Dict{String, String}}, ::Cmd; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./process.jl:395
+ [12] open
+    @ ./process.jl:393 [inlined]
+ [13] uncompress_registry(tar_gz::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:198
+ [14] Pkg.Registry.RegistryInstance(path::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:266
+ [15] reachable_registries(; depots::Vector{String})
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:373
+ [16] reachable_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:345 [inlined]
+ [17] download_default_registries(io::IOStream; only_if_empty::Bool)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101
+ [18] download_default_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101 [inlined]
+ [19] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [20] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [21] #add#27
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:142 [inlined]
+ [22] add(pkgs::Vector{String})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:142
+ [23] top-level scope
+    @ none:1
+┌ Warning: Expected key "git-tree-sha1" to exist in registry TOML file at "/storage/brno11-elixir/home/hermanda/.julia/registries/General.toml"
+└ @ Pkg.Registry /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:331
+ERROR: KeyError: key "path" not found
+Stacktrace:
+  [1] getindex
+    @ ./dict.jl:481 [inlined]
+  [2] Pkg.Registry.RegistryInstance(path::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:247
+  [3] reachable_registries(; depots::Vector{String})
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:373
+  [4] reachable_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:345 [inlined]
+  [5] download_default_registries(io::IOStream; only_if_empty::Bool)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101
+  [6] download_default_registries(io::IOStream)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101
+  [7] up(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; level::Pkg.Types.UpgradeLevel, mode::Pkg.Types.PackageMode, update_registry::Bool, skip_writing_project::Bool, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:320
+  [8] up(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Pkg.Types.PackageMode, Tuple{Symbol}, NamedTuple{(:mode,), Tuple{Pkg.Types.PackageMode}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:149
+  [9] up(; name::Nothing, uuid::Nothing, version::Nothing, url::Nothing, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:164
+ [10] up()
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:158
+ [11] top-level scope
+    @ none:1
