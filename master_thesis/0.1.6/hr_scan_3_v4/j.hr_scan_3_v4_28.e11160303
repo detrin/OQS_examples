@@ -1,0 +1,270 @@
+ERROR: Unexpected end of data : General.tar
+ERROR: EOFError: read end of file
+Stacktrace:
+  [1] read_data(tar::Base.Process, file::IOBuffer; size::Int64, buf::Vector{UInt8}, tee::Base.DevNull)
+    @ Tar /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:706
+  [2] #12
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:201 [inlined]
+  [3] read_tarball(callback::Pkg.Registry.var"#12#15"{Base.Process, IOBuffer, Vector{UInt8}, Dict{String, String}}, predicate::Pkg.Registry.var"#13#16", tar::Base.Process; buf::Vector{UInt8}, skeleton::Base.DevNull)
+    @ Tar /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Tar/src/extract.jl:399
+  [4] #11
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:199 [inlined]
+  [5] open(::Pkg.Registry.var"#11#14"{IOBuffer, Vector{UInt8}, Dict{String, String}}, ::Cmd; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./process.jl:395
+  [6] open
+    @ ./process.jl:393 [inlined]
+  [7] uncompress_registry(tar_gz::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:198
+  [8] Pkg.Registry.RegistryInstance(path::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:266
+  [9] reachable_registries(; depots::Vector{String})
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:373
+ [10] reachable_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:345 [inlined]
+ [11] download_default_registries(io::IOStream; only_if_empty::Bool)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101
+ [12] download_default_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/Registry.jl:101 [inlined]
+ [13] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [14] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [15] #add#26
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [16] add
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [17] add(; name::Nothing, uuid::Nothing, version::Nothing, url::String, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:166
+ [18] top-level scope
+    @ none:1
+
+
+ERROR:
+there is no such archive
+ERROR: failed process: Process(setenv(`/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/libexec/7z x /storage/brno11-elixir/home/hermanda/.julia/registries/General.tar.gz -so`,["PSXE_2019=1", "PBS_RESC_TOTAL_WALLTIME=86400", "PATH=/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/libexec:/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/advisor_2019.4.0.597843/bin64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/vtune_amplifier_2019.4.0.597835/bin64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/inspector_2019.4.0.597413/bin64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/itac/2019.4.036/intel64/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/bin/intel64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/debugger_2019/gdb/intel64/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/software/meta-utils/public:/usr/bin:/home/spack/bin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/parallel_studio_xe_2019.4.070/bin", "INTEL_PARALLEL_STUDIO_ROOT=/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc", "LD_LIBRARY_PATH=/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/bin/../lib/julia:/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/bin/../lib:/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/lib:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/itac/2019.4.036/intel64/slib:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/libfabric/lib:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib/release:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/lib:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/ipp/lib/intel64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64/gcc4.7:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/debugger_2019/libipt/intel64/lib:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/daal/lib/intel64_lin:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/daal/../tbb/lib/intel64_lin/gcc4.4:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/lib", "PBS_RESC_TOTAL_PROCS=1", "MANPATH=/cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/man:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/itac/2019.4.036/man:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/man/common:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/man:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/documentation_2019/en/debugger/gdb-ia/man/:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/man:/software/modules/current/Modules/3.2.10/share/man:/usr/share/man:/usr/share/man", "MODULEPATH=/packages/run/modules-2.0/modulefiles:/packages/run/modules-2.0/modulefiles_ics:/packages/run/modules-2.0/modulefiles_opensuse:/packages/run/modules-2.0/modulefiles_torque:/cvmfs/software.metacentrum.cz/spack1/modulefiles/linux-debian10-x86_64:/cvmfs/software.metacentrum.cz/spack1/modulefiles/linux-debian9-x86_64:/cvmfs/software.metacentrum.cz/modulefiles/linux-debian9-x86_64:/cvmfs/software.metacentrum.cz/modulefiles_basics:/cvmfs/software.metacentrum.cz/modulefiles_spack/linux-debian9-x86_64:/packages/run/modules-2.0/modulefiles_spack/linux-debian9-x86_64:/cvmfs/software.metacentrum.cz/spack1/modulefiles/linux-centos7-x86_64:/packages/run/modules-2.0/modulefiles_OLD", "PBS_O_QUEUE=default", "TORQUE_RESC_TOTAL_MEM=4294967296"  …  "MODULE_VERSION=3.2.10", "TORQUE_RESC_PROC=1", "PKG_CONFIG_PATH=/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/advisor_2019.4.0.597843/include/pkgconfig/lib64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/vtune_amplifier_2019.4.0.597835/include/pkgconfig/lib64:/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mkl/bin/pkgconfig", "MPIF90=/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mpi/intel64/bin/mpiifort", "PBS_RESC_MEM=4294967296", "PBS_QUEUE=global", "MKLROOT=/cvmfs/software.metacentrum.cz/spack1/software/intel-parallel-studio/linux-centos7-x86_64/cluster.2019.4-intel-ssarxc/compilers_and_libraries_2019.4.243/linux/mkl", "PBS_O_HOME=/storage/praha1/home/hermanda", "OPENBLAS_MAIN_FREE=1", "TORQUE_RESC_SCRATCH_LOCAL=10737418240"]), ProcessExited(2)) [2]
+
+Stacktrace:
+  [1] pipeline_error
+    @ ./process.jl:531 [inlined]
+  [2] open(::Pkg.Registry.var"#11#14"{IOBuffer, Vector{UInt8}, Dict{String, String}}, ::Cmd; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Base ./process.jl:406
+  [3] open
+    @ ./process.jl:393 [inlined]
+  [4] uncompress_registry(tar_gz::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:198
+  [5] Pkg.Registry.RegistryInstance(path::String)
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:266
+  [6] reachable_registries(; depots::Vector{String})
+    @ Pkg.Registry /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:373
+  [7] reachable_registries
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:345 [inlined]
+  [8] Pkg.Types.Context()
+    @ Pkg.Types ./util.jl:478
+  [9] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:145
+ [10] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [11] #add#27
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:142 [inlined]
+ [12] add(pkgs::Vector{String})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:142
+ [13] top-level scope
+    @ none:1
+┌ Warning: Expected the compressed registry for "/storage/brno11-elixir/home/hermanda/.julia/registries/General.toml" to exist at "/storage/brno11-elixir/home/hermanda/.julia/registries/General.tar.gz"
+└ @ Pkg.Registry /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:337
+┌ Warning: Expected the compressed registry for "/storage/brno11-elixir/home/hermanda/.julia/registries/General.toml" to exist at "/storage/brno11-elixir/home/hermanda/.julia/registries/General.tar.gz"
+└ @ Pkg.Registry /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:337
+  Installing known registries into `~/.julia`
+┌ Warning: Expected key "git-tree-sha1" to exist in registry TOML file at "/storage/brno11-elixir/home/hermanda/.julia/registries/General.toml"
+└ @ Pkg.Registry /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Registry/registry_instance.jl:331
+registry `General=23338594-aafe-5451-b93e-139f81909106` not found.
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+   Installed StatsAPI ───── v1.3.0
+ERROR: Error when installing package StaticArrays:
+IOError: rm("/storage/brno11-elixir/home/hermanda/.julia/packages/StaticArrays/58yy1/perf"): directory not empty (ENOTEMPTY)
+Stacktrace:
+ [1] uv_error
+   @ ./libuv.jl:97 [inlined]
+ [2] rm(path::String; force::Bool, recursive::Bool)
+   @ Base.Filesystem ./file.jl:299
+ [3] rm(path::String; force::Bool, recursive::Bool)
+   @ Base.Filesystem ./file.jl:287
+ [4] checkfor_mv_cp_cptree(src::String, dst::String, txt::String; force::Bool)
+   @ Base.Filesystem ./file.jl:323
+ [5] #mv#17
+   @ ./file.jl:411 [inlined]
+ [6] install_archive(urls::Vector{Pair{String, Bool}}, hash::Base.SHA1, version_path::String; io::IOStream)
+   @ Pkg.Operations /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:522
+ [7] macro expansion
+   @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:698 [inlined]
+ [8] (::Pkg.Operations.var"#45#50"{Bool, Pkg.Types.Context, Channel{Any}, Channel{NamedTuple{(:pkg, :urls, :path), Tuple{Pkg.Types.PackageEntry, Set{String}, String}}}})()
+   @ Pkg.Operations ./task.jl:423
+Stacktrace:
+  [1] pkgerror(::String, ::Vararg{String})
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:68
+  [2] macro expansion
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:720 [inlined]
+  [3] macro expansion
+    @ ./task.jl:399 [inlined]
+  [4] download_source(ctx::Pkg.Types.Context; readonly::Bool)
+    @ Pkg.Operations /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:671
+  [5] download_source
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:653 [inlined]
+  [6] up(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}, level::Pkg.Types.UpgradeLevel; skip_writing_project::Bool)
+    @ Pkg.Operations /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Operations.jl:1266
+  [7] up(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; level::Pkg.Types.UpgradeLevel, mode::Pkg.Types.PackageMode, update_registry::Bool, skip_writing_project::Bool, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:333
+  [8] up(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Pkg.Types.PackageMode, Tuple{Symbol}, NamedTuple{(:mode,), Tuple{Pkg.Types.PackageMode}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:149
+  [9] up(; name::Nothing, uuid::Nothing, version::Nothing, url::Nothing, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:164
+ [10] up()
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:158
+ [11] top-level scope
+    @ none:1
+┌ Warning: Module DiffResults with build ID 22515664370135056 is missing from the cache.
+│ This may mean DiffResults [163ba53b-c6d8-5494-b064-1a9d43ac40c5] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1107
+┌ Warning: Module DiffResults with build ID 22515664370135056 is missing from the cache.
+│ This may mean DiffResults [163ba53b-c6d8-5494-b064-1a9d43ac40c5] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1107
+ERROR: LoadError: ArgumentError: Package LoopVectorization does not have Static in its dependencies:
+- If you have LoopVectorization checked out for development and have
+  added Static as a dependency but haven't updated your primary
+  environment's manifest file, try `Pkg.resolve()`.
+- Otherwise you may need to report an issue with LoopVectorization
+Stacktrace:
+  [1] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:980
+  [2] include
+    @ ./Base.jl:418 [inlined]
+  [3] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1149
+  [4] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [5] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [6] include(mod::Module, _path::String)
+    @ Base ./Base.jl:418
+  [7] include(x::String)
+    @ RecursiveFactorization ~/.julia/packages/RecursiveFactorization/ZLxNf/src/RecursiveFactorization.jl:1
+  [8] top-level scope
+    @ ~/.julia/packages/RecursiveFactorization/ZLxNf/src/RecursiveFactorization.jl:3
+  [9] include
+    @ ./Base.jl:418 [inlined]
+ [10] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+ [11] top-level scope
+    @ none:1
+ [12] eval
+    @ ./boot.jl:373 [inlined]
+ [13] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [14] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/LoopVectorization/rmlXk/src/LoopVectorization.jl:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/RecursiveFactorization/ZLxNf/src/lu.jl:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/RecursiveFactorization/ZLxNf/src/RecursiveFactorization.jl:1
+ERROR: LoadError: Failed to precompile RecursiveFactorization [f2c3362d-daeb-58d1-803e-2bc74f2840b4] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/RecursiveFactorization/jl_N5SexS.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include
+    @ ./Base.jl:418 [inlined]
+  [8] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+  [9] top-level scope
+    @ none:1
+ [10] eval
+    @ ./boot.jl:373 [inlined]
+ [11] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [12] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/DiffEqBase/ziNGu/src/DiffEqBase.jl:1
+ERROR: LoadError: Failed to precompile DiffEqBase [2b5f629d-d688-5b77-993f-72d75c75574e] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/DiffEqBase/jl_ImEfGZ.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include
+    @ ./Base.jl:418 [inlined]
+  [8] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+  [9] top-level scope
+    @ none:1
+ [10] eval
+    @ ./boot.jl:373 [inlined]
+ [11] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [12] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/OrdinaryDiffEq.jl:1
+ERROR: LoadError: Failed to precompile OrdinaryDiffEq [1dea7af3-3e70-54e6-95c3-0bf5283fa5ed] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/OrdinaryDiffEq/jl_966zi3.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include(mod::Module, _path::String)
+    @ Base ./Base.jl:418
+  [8] include(x::String)
+    @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:1
+  [9] top-level scope
+    @ ~/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:298
+ [10] include
+    @ ./Base.jl:418 [inlined]
+ [11] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+ [12] top-level scope
+    @ none:1
+ [13] eval
+    @ ./boot.jl:373 [inlined]
+ [14] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [15] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/LP72n/src/timeevolution_base.jl:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:1
+ERROR: LoadError: Failed to precompile OpenQuantumSystems [90e503ea-487f-4e8e-81fe-8dcc9db25ac5] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/OpenQuantumSystems/jl_f6jo8s.
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:33
+ [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+   @ Base ./loading.jl:1466
+ [3] compilecache(pkg::Base.PkgId, path::String)
+   @ Base ./loading.jl:1410
+ [4] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1120
+ [5] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+in expression starting at /auto/vestec1-elixir/home/hermanda/OQS_examples/master_thesis/0.1.6/hr_scan_3_v4/main.jl:2

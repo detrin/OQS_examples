@@ -1,0 +1,18 @@
+elmo3-2.hw.elixir-czech.cz
+elmo3-2.hw.elixir-czech.cz
+/storage/praha1/home/hermanda/OQS_examples/master_thesis/0.1.6/J_E_scan_2
+elmo3-2.hw.elixir-czech.cz
+J_E_scan_1.ipynb data j.J_E_scan_2_0.e11160517 j.J_E_scan_2_0.o11160517 j.J_E_scan_2_1.e11160518 j.J_E_scan_2_1.o11160518 j.J_E_scan_2_2.e11160519 j.J_E_scan_2_2.o11160519 j.J_E_scan_2_3.e11160520 j.J_E_scan_2_3.o11160520 j.J_E_scan_2_4.e11160521 j.J_E_scan_2_4.o11160521 j.J_E_scan_2_5.e11160522 j.J_E_scan_2_5.o11160522 j.J_E_scan_2_6.e11160523 j.J_E_scan_2_6.o11160523 j.J_E_scan_2_7.e11160524 j.J_E_scan_2_7.o11160524 j.J_E_scan_2_8.e11160525 j.J_E_scan_2_8.o11160525 j.J_E_scan_2_9.e11160526 j.J_E_scan_2_9.o11160526 main.jl makefile mc_run.sh resubmit_job submited_jobs update_julia.sh
+n 14
+DeltaE 180.0
+J 20.0
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_ansatz_upart1_int
+running QME_sI_ansatz_upart2_int
+running QME_sI_iterative_1
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

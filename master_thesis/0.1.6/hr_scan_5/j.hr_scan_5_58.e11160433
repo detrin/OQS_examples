@@ -1,0 +1,51 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+Precompiling project...
+[91m  ✗ [39mOpenQuantumSystems
+  0 dependencies successfully precompiled in 64 seconds (132 already precompiled)
+  [91m1[39m dependency errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the package
+[ Info: We haven't cleaned this depot up for a bit, running Pkg.gc()...
+┌ Error: GC failed
+│   exception =
+│    TOML Parser error:
+│    /storage/brno11-elixir/home/hermanda/.julia/logs/artifact_usage.toml:931:1 error: invalid bare key character: '.'
+│      .538Z
+│      ^     
+└ @ Pkg /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Pkg.jl:644
+ERROR: LoadError: ArgumentError: Package OpenQuantumSystems [90e503ea-487f-4e8e-81fe-8dcc9db25ac5] is required but does not seem to be installed:
+ - Run `Pkg.instantiate()` to install all recorded dependencies.
+
+Stacktrace:
+ [1] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1089
+ [2] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [3] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+in expression starting at /auto/vestec1-elixir/home/hermanda/OQS_examples/master_thesis/0.1.6/hr_scan_5/main.jl:2

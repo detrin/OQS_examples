@@ -1,0 +1,114 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+[ Info: We haven't cleaned this depot up for a bit, running Pkg.gc()...
+┌ Error: GC failed
+│   exception =
+│    TOML Parser error:
+│    /storage/brno11-elixir/home/hermanda/.julia/logs/artifact_usage.toml:931:1 error: invalid bare key character: '.'
+│      .538Z
+│      ^     
+└ @ Pkg /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Pkg.jl:644
+WARNING: Method definition resize!(DiffEqBase.AbstractNLSolverCache, Any, Any, Int64) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/nlsolve/utils.jl:420 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition resize!(LinearSolve.LinearCache{TA, Tb, Tu, Tp, Talg, Tc, Tl, Tr, Ttol} where Ttol where Tr where Tl where Tc where Talg where Tp where Tu where Tb where TA, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/integrators/integrator_interface.jl:188 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition du_cache(DiffEqBase.AbstractNLSolverCache) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/nlsolve/utils.jl:42 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition update_coefficients!(SparseDiffTools.JacVec{F, T1, T2, xType} where xType where T2 where T1 where F, Any, Any, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/derivative_utils.jl:278 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition interp_summary(Type{cacheType}, Bool) where {cacheType} in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/interp_func.jl:72 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition addsteps!(Any, Any, Any, Any, Any, Any, Any, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/dense/generic_dense.jl:408 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition addsteps!(Any, Any, Any, Any, Any, Any, Any, Any, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/dense/generic_dense.jl:408 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition addsteps!(Any, Any, Any, Any, Any, Any, Any, Any, Any, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/dense/generic_dense.jl:408 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition addsteps!(Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/dense/generic_dense.jl:408 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition build_jac_config(Any, F1, F2, Any, Any, Any, Any, Any, Base.Val{transform}) where {transform, F1, F2} in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/derivative_wrappers.jl:122 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition build_jac_config(Any, F1, F2, Any, Any, Any, Any, Any) where {F1, F2} in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/derivative_wrappers.jl:122 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition resize_jac_config!(FiniteDiff.JacobianCache{CacheType1, CacheType2, CacheType3, ColorType, SparsityType, fdtype, returntype} where returntype where fdtype where SparsityType where ColorType where CacheType3 where CacheType2 where CacheType1, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/derivative_wrappers.jl:168 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+WARNING: Method definition resize_jac_config!(SparseDiffTools.ForwardColorJacCache{T, T2, T3, T4, T5, T6} where T6 where T5 where T4 where T3 where T2 where T, Any) in module OrdinaryDiffEq at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/derivative_wrappers.jl:157 overwritten in module OrdinaryDiffEq on the same line (check for duplicate calls to `include`).
+  ** incremental compilation may be fatally broken for this module **
+
+┌ Warning: Replacing module `OrdinaryDiffEq`
+└ @ Base loading.jl:1036
+ERROR: LoadError: importing OrdinaryDiffEq into OpenQuantumSystems conflicts with an existing identifier
+Stacktrace:
+ [1] include(mod::Module, _path::String)
+   @ Base ./Base.jl:418
+ [2] include(x::String)
+   @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:1
+ [3] top-level scope
+   @ ~/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:300
+ [4] include
+   @ ./Base.jl:418 [inlined]
+ [5] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+   @ Base ./loading.jl:1318
+ [6] top-level scope
+   @ none:1
+ [7] eval
+   @ ./boot.jl:373 [inlined]
+ [8] eval(x::Expr)
+   @ Base.MainInclude ./client.jl:453
+ [9] top-level scope
+   @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/LP72n/src/schroedinger.jl:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/LP72n/src/OpenQuantumSystems.jl:1
+ERROR: LoadError: Failed to precompile OpenQuantumSystems [90e503ea-487f-4e8e-81fe-8dcc9db25ac5] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/OpenQuantumSystems/jl_Lmdd8E.
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:33
+ [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+   @ Base ./loading.jl:1466
+ [3] compilecache(pkg::Base.PkgId, path::String)
+   @ Base ./loading.jl:1410
+ [4] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1120
+ [5] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+in expression starting at /auto/vestec1-elixir/home/hermanda/OQS_examples/master_thesis/0.1.6/hr_scan_5/main.jl:2
