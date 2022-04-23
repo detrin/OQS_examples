@@ -30,3 +30,8 @@ seq 0 120 | xargs -I{} qsub -v n={} -N j.J_E_scan_1_v2_{} mc_run.sh > submited_j
 ls data | cut -d_ -f2 | cut -d. -f1 | sort -n | awk '{for(i=p+1; i<$1; i++) print i} {p=$1}' > resubmit_job
 cat resubmit_job | xargs -I{} qsub -v n={} -N j.hr_scan_5_{} mc_run.sh > submited_jobs
 ```
+
+# other
+```
+ls -l | grep '^d' | rev | cut -d" " -f1 | rev | xargs -I{} bash -c "echo {}: ; ls {}/data | wc -l" 2>/dev/null | sed 'N;s/\n/ /'
+```
