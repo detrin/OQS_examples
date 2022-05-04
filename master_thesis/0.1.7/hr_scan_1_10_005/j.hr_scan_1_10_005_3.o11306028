@@ -1,0 +1,24 @@
+elmo5-25.hw.elixir-czech.cz
+elmo5-25.hw.elixir-czech.cz
+elmo5-25.hw.elixir-czech.cz
+/auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_1_10_005
+elmo5-25.hw.elixir-czech.cz
+data hr_scan_1.ipynb j.hr_scan_1_10_005_0.e11305374 j.hr_scan_1_10_005_0.o11305374 j.hr_scan_1_10_005_1.e11305375 j.hr_scan_1_10_005_1.o11305375 j.hr_scan_1_10_005_2.e11305376 j.hr_scan_1_10_005_2.o11305376 j.hr_scan_1_10_005_3.e11305377 j.hr_scan_1_10_005_3.o11305377 j.hr_scan_1_10_005_4.e11305378 j.hr_scan_1_10_005_4.o11305378 j.hr_scan_1_10_005_5.e11305379 j.hr_scan_1_10_005_5.o11305379 j.hr_scan_1_10_005_6.e11305380 j.hr_scan_1_10_005_6.o11305380 j.hr_scan_1_10_005_7.e11305381 j.hr_scan_1_10_005_7.o11305381 j.hr_scan_1_10_005_8.e11305382 j.hr_scan_1_10_005_8.o11305382 j.hr_scan_1_10_005_9.e11305383 j.hr_scan_1_10_005_9.o11305383 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 3
+hr1 0.15000000000000002
+hr2 0.15000000000000002
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_iterative/1/none/population/false
+running QME_sI_iterative/2/none/population/false
+running QME_sI_iterative/1/none/population/true
+running QME_sI_iterative/2/none/population/true
+running QME_sI_iterative/1/none/population_coherences/false
+running QME_sI_iterative/2/none/population_coherences/false
+running QME_sI_iterative/1/none/population_coherences/true
+running QME_sI_iterative/2/none/population_coherences/true
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

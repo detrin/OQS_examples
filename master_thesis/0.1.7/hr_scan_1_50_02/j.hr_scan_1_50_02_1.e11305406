@@ -1,0 +1,44 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+Precompiling project...
+[32m  ✓ [39m[90mPDMats[39m
+[32m  ✓ [39mCpuId
+[32m  ✓ [39m[90mLogExpFunctions[39m
+[32m  ✓ [39m[90mStatsBase[39m
+[32m  ✓ [39m[90mCPUSummary[39m
+[32m  ✓ [39m[90mSpecialFunctions[39m
+[32m  ✓ [39m[90mDiffRules[39m
+[32m  ✓ [39m[90mPolyesterWeave[39m
+[32m  ✓ [39m[90mStatsFuns[39m
+[32m  ✓ [39m[90mForwardDiff[39m
+[32m  ✓ [39m[90mNLSolversBase[39m
+[32m  ✓ [39m[90mSparseDiffTools[39m
+[91m  ✗ [39m[90mVectorizationBase[39m
+[32m  ✓ [39m[90mLineSearches[39m
+[32m  ✓ [39m[90mPreallocationTools[39m
+[32m  ✓ [39m[90mPolyester[39m
+[32m  ✓ [39m[90mDistributions[39m
+[32m  ✓ [39m[90mFastBroadcast[39m
+[32m  ✓ [39m[90mNLsolve[39m
+[32m  ✓ [39m[90mSIMDDualNumbers[39m
+[32m  ✓ [39m[90mLoopVectorization[39m
+[32m  ✓ [39m[90mTriangularSolve[39m
+[32m  ✓ [39m[90mRecursiveFactorization[39m
+[32m  ✓ [39m[90mLinearSolve[39m
+[32m  ✓ [39m[90mNonlinearSolve[39m
+[32m  ✓ [39m[90mDiffEqBase[39m
+[32m  ✓ [39m[90mOrdinaryDiffEq[39m
+[32m  ✓ [39m[90mDiffEqCallbacks[39m
+[32m  ✓ [39mDelayDiffEq
+[32m  ✓ [39mOpenQuantumSystems
+  29 dependencies successfully precompiled in 566 seconds (103 already precompiled)
+  [91m1[39m dependency errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the package
+=>> PBS: job killed: ncpus 1.29 exceeded limit 1 (sum)
