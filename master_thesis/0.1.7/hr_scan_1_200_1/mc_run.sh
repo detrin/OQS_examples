@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -l select=1:ncpus=4:mem=4gb:scratch_local=10gb:cluster=elmo5
+#PBS -l select=1:ncpus=1:mem=4gb:scratch_local=10gb:cluster=elmo5
 #PBS -l walltime=24:00:00
 #PBS -m ae
 
@@ -27,7 +27,7 @@ source update_julia.sh
 
 echo $(ls)
 mkdir -p data
-julia -p4 -t4 main.jl -n $n
+julia main.jl -n $n
 # cp data/*.h5 $DATADIR/data/
 
 clean_scratch

@@ -86,8 +86,8 @@ for i=1:length(tspan)
 end
 
 be = :none
-for ba in [:population, :population_coherences]
-    for normalize in [false, true]
+for ba in [:population]
+    for normalize in [false]
         println("running QME_sI_iterative/1/"*string(be)*"/"*string(ba)*"/"*string(normalize))
         _, rho_1_int_t_, W_1_bath_t = QME_sI_iterative(
             W0,
