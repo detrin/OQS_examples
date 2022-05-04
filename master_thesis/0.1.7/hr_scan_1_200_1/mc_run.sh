@@ -27,7 +27,7 @@ source update_julia.sh
 
 echo $(ls)
 mkdir -p data
-julia -p4 main.jl -n $n
+julia -p4 -t4 main.jl -n $n
 # cp data/*.h5 $DATADIR/data/
 
 clean_scratch
