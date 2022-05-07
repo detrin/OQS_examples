@@ -1,0 +1,113 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+    Updating `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  [90e503ea] ~ OpenQuantumSystems v0.1.7 `https://github.com/detrin/OpenQuantumSystems.jl#master#master` ⇒ v0.1.7 `https://github.com/detrin/OpenQuantumSystems.jl#master#master`
+    Updating `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+  [90e503ea] ~ OpenQuantumSystems v0.1.7 `https://github.com/detrin/OpenQuantumSystems.jl#master#master` ⇒ v0.1.7 `https://github.com/detrin/OpenQuantumSystems.jl#master#master`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+Precompiling project...
+[32m  ✓ [39m[90mForwardDiff[39m
+[32m  ✓ [39m[90mPreallocationTools[39m
+[32m  ✓ [39m[90mNLSolversBase[39m
+[32m  ✓ [39m[90mSparseDiffTools[39m
+[32m  ✓ [39m[90mLineSearches[39m
+[32m  ✓ [39m[90mNLsolve[39m
+[32m  ✓ [39m[90mVectorizationBase[39m
+[32m  ✓ [39m[90mSLEEFPirates[39m
+[32m  ✓ [39m[90mSIMDDualNumbers[39m
+[32m  ✓ [39m[90mLoopVectorization[39m
+[32m  ✓ [39m[90mTriangularSolve[39m
+[32m  ✓ [39m[90mRecursiveFactorization[39m
+[32m  ✓ [39m[90mLinearSolve[39m
+[32m  ✓ [39m[90mNonlinearSolve[39m
+[32m  ✓ [39m[90mDiffEqBase[39m
+[32m  ✓ [39m[90mOrdinaryDiffEq[39m
+[32m  ✓ [39mDelayDiffEq
+[32m  ✓ [39m[90mDiffEqCallbacks[39m
+[32m  ✓ [39mOpenQuantumSystems
+  19 dependencies successfully precompiled in 375 seconds (117 already precompiled)
+[ Info: We haven't cleaned this depot up for a bit, running Pkg.gc()...
+┌ Error: GC failed
+│   exception =
+│    TOML Parser error:
+│    /storage/brno11-elixir/home/hermanda/.julia/logs/artifact_usage.toml:931:1 error: invalid bare key character: '.'
+│      .538Z
+│      ^     
+└ @ Pkg /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Pkg.jl:644
+┌ Warning: Module OrdinaryDiffEq with build ID 7904047628262505 is missing from the cache.
+│ This may mean OrdinaryDiffEq [1dea7af3-3e70-54e6-95c3-0bf5283fa5ed] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1107
+┌ Warning: Module OrdinaryDiffEq with build ID 7904047628262505 is missing from the cache.
+│ This may mean OrdinaryDiffEq [1dea7af3-3e70-54e6-95c3-0bf5283fa5ed] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1107
+ERROR: LoadError: DomainError with 0.0:
+integrand produced NaN in the interval (0.0, 0.0)
+Stacktrace:
+  [1] evalrule(f::OpenQuantumSystems.var"#122#123"{Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}}, a::Float64, b::Float64, x::Vector{Float64}, w::Vector{Float64}, gw::Vector{Float64}, nrm::typeof(norm))
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/evalrule.jl:41
+  [2] #2
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:10 [inlined]
+  [3] ntuple
+    @ ./ntuple.jl:48 [inlined]
+  [4] do_quadgk(f::OpenQuantumSystems.var"#122#123"{Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}}, s::Tuple{Float64, Float64}, n::Int64, atol::Float64, rtol::Float64, maxevals::Int64, nrm::typeof(norm))
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:10
+  [5] #28
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:179 [inlined]
+  [6] handle_infinities(workfunc::QuadGK.var"#28#29"{Float64, Float64, Int64, Int64, typeof(norm)}, f::OpenQuantumSystems.var"#122#123"{Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}}, s::Tuple{Float64, Float64})
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:113
+  [7] quadgk(::Function, ::Float64, ::Float64; atol::Float64, rtol::Float64, maxevals::Int64, order::Int64, norm::Function)
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:177
+  [8] #quadgk#26
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:173 [inlined]
+  [9] #K_aabb_W_bath_intp#121
+    @ ~/.julia/packages/OpenQuantumSystems/4MMUN/src/rate_constant.jl:45 [inlined]
+ [10] W_aabb_1_bath_core(t::Float64, s::Float64, p::Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, tmp1::Matrix{ComplexF64}, tmp2::Matrix{ComplexF64}; bath_evolution::Symbol, K_rtol::Float64, K_atol::Float64)
+    @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/4MMUN/src/master_iterative.jl:45
+ [11] #177
+    @ ~/.julia/packages/OpenQuantumSystems/4MMUN/src/master_iterative.jl:148 [inlined]
+ [12] evalrule(f::OpenQuantumSystems.var"#177#179"{Symbol, Float64, Float64, Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}}, a::Float64, b::Float64, x::Vector{Float64}, w::Vector{Float64}, gw::Vector{Float64}, nrm::typeof(norm))
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/evalrule.jl:20
+ [13] #2
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:10 [inlined]
+ [14] ntuple
+    @ ./ntuple.jl:48 [inlined]
+ [15] do_quadgk(f::OpenQuantumSystems.var"#177#179"{Symbol, Float64, Float64, Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}}, s::Tuple{Float64, Float64}, n::Int64, atol::Float64, rtol::Float64, maxevals::Int64, nrm::typeof(norm))
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:10
+ [16] #28
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:179 [inlined]
+ [17] handle_infinities(workfunc::QuadGK.var"#28#29"{Float64, Float64, Int64, Int64, typeof(norm)}, f::OpenQuantumSystems.var"#177#179"{Symbol, Float64, Float64, Float64, Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, Matrix{ComplexF64}, Matrix{ComplexF64}}, s::Tuple{Float64, Float64})
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:113
+ [18] quadgk(::Function, ::Float64, ::Float64; atol::Float64, rtol::Float64, maxevals::Int64, order::Int64, norm::Function)
+    @ QuadGK ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:177
+ [19] #quadgk#26
+    @ ~/.julia/packages/QuadGK/ENhXl/src/adapt.jl:173 [inlined]
+ [20] W_1_bath(t::Float64, p::Tuple{AggregateCore{Int64, Float64, Float64}, AggregateTools, AggregateOperators{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{Float64}}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, Vector{Float64}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Matrix{ComplexF64}}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, Interpolations.BSplineInterpolation{Matrix{ComplexF64}, 1, Vector{Any}, Interpolations.BSpline{Interpolations.Linear{Interpolations.Throw{Interpolations.OnGrid}}}, Tuple{Base.OneTo{Int64}}}, DataType}, tmp1::Matrix{ComplexF64}, tmp2::Matrix{ComplexF64}; bath_evolution::Symbol, bath_ansatz::Symbol, normalize::Bool, W_1_rtol::Float64, W_1_atol::Float64, K_rtol::Float64, K_atol::Float64)
+    @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/4MMUN/src/master_iterative.jl:147
+ [21] QME_sI_iterative(W0::Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}, rho_0_int_t::Vector{Operator{GenericBasis{Vector{Int64}}, GenericBasis{Vector{Int64}}, Matrix{ComplexF64}}}, W_0_bath_t::Vector{Any}, tspan::Vector{Float64}, agg::Aggregate; bath_evolution::Symbol, bath_ansatz::Symbol, normalize::Bool, reltol::Float64, abstol::Float64, int_reltol::Float64, int_abstol::Float64, W_1_rtol::Float64, W_1_atol::Float64, K_rtol::Float64, K_atol::Float64, alg::DelayDiffEq.MethodOfSteps{OrdinaryDiffEq.Tsit5{typeof(OrdinaryDiffEq.trivial_limiter!), typeof(OrdinaryDiffEq.trivial_limiter!), Static.False}, DiffEqBase.NLFunctional{Rational{Int64}, Rational{Int64}}, false}, fout::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/4MMUN/src/master_iterative.jl:234
+ [22] top-level scope
+    @ /auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_1_10_005/main.jl:92
+in expression starting at /auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_1_10_005/main.jl:89

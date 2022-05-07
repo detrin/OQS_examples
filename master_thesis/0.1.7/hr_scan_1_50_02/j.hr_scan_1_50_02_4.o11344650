@@ -1,0 +1,17 @@
+elmo3-2.hw.elixir-czech.cz
+elmo3-2.hw.elixir-czech.cz
+elmo3-2.hw.elixir-czech.cz
+/auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_1_50_02
+elmo3-2.hw.elixir-czech.cz
+data hr_scan_1.ipynb j.hr_scan_1_50_02_0.e11305405 j.hr_scan_1_50_02_0.e11306058 j.hr_scan_1_50_02_0.e11344646 j.hr_scan_1_50_02_0.o11305405 j.hr_scan_1_50_02_0.o11306058 j.hr_scan_1_50_02_0.o11344646 j.hr_scan_1_50_02_1.e11305406 j.hr_scan_1_50_02_1.e11306059 j.hr_scan_1_50_02_1.o11305406 j.hr_scan_1_50_02_1.o11306059 j.hr_scan_1_50_02_2.e11305407 j.hr_scan_1_50_02_2.e11306060 j.hr_scan_1_50_02_2.o11305407 j.hr_scan_1_50_02_2.o11306060 j.hr_scan_1_50_02_3.e11305408 j.hr_scan_1_50_02_3.e11306061 j.hr_scan_1_50_02_3.o11305408 j.hr_scan_1_50_02_3.o11306061 j.hr_scan_1_50_02_4.e11305409 j.hr_scan_1_50_02_4.e11306062 j.hr_scan_1_50_02_4.o11305409 j.hr_scan_1_50_02_4.o11306062 j.hr_scan_1_50_02_5.e11305410 j.hr_scan_1_50_02_5.e11306063 j.hr_scan_1_50_02_5.o11305410 j.hr_scan_1_50_02_5.o11306063 j.hr_scan_1_50_02_6.e11305411 j.hr_scan_1_50_02_6.e11306064 j.hr_scan_1_50_02_6.o11305411 j.hr_scan_1_50_02_6.o11306064 j.hr_scan_1_50_02_7.e11305412 j.hr_scan_1_50_02_7.e11306065 j.hr_scan_1_50_02_7.o11305412 j.hr_scan_1_50_02_7.o11306065 j.hr_scan_1_50_02_8.e11305413 j.hr_scan_1_50_02_8.e11306066 j.hr_scan_1_50_02_8.o11305413 j.hr_scan_1_50_02_8.o11306066 j.hr_scan_1_50_02_9.e11305414 j.hr_scan_1_50_02_9.e11306067 j.hr_scan_1_50_02_9.o11305414 j.hr_scan_1_50_02_9.o11306067 main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 4
+hr1 0.2
+hr2 0.2
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_iterative/1/none/population/false
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...
