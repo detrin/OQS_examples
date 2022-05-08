@@ -1,0 +1,195 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+  0 dependencies successfully precompiled in 2 seconds (123 already precompiled, 12 skipped during auto due to previous errors)
+  [91m1[39m dependency errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the package
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+  0 dependencies successfully precompiled in 1 seconds (123 already precompiled, 12 skipped during auto due to previous errors)
+  [91m1[39m dependency errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the package
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+┌ Warning: The active manifest file at `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml` has an old format that is being maintained.
+│ To update to the new format run `Pkg.upgrade_manifest()` which will upgrade the format without re-resolving.
+└ @ Pkg.Types /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/manifest.jl:287
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+┌ Warning: The active manifest file is an older format with no julia version entry. Dependencies may have been resolved with a different julia version.
+└ @ /auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml:0
+  0 dependencies successfully precompiled in 1 seconds (123 already precompiled, 12 skipped during auto due to previous errors)
+  [91m1[39m dependency errored. To see a full report either run `import Pkg; Pkg.precompile()` or load the package
+[ Info: We haven't cleaned this depot up for a bit, running Pkg.gc()...
+┌ Error: GC failed
+│   exception =
+│    TOML Parser error:
+│    /storage/brno11-elixir/home/hermanda/.julia/logs/artifact_usage.toml:931:1 error: invalid bare key character: '.'
+│      .538Z
+│      ^     
+└ @ Pkg /ramdisk/spack/spack-stage-julia-1.7.0-rdhfzdi6mh4tuhurdcftjh4qr424ssok/spack-src/usr/share/julia/stdlib/v1.7/Pkg/src/Pkg.jl:644
+ERROR: LoadError: ArgumentError: Package DataStructures [864edb3b-99cc-5e75-8d2d-829cb0a9cfe8] is required but does not seem to be installed:
+ - Run `Pkg.instantiate()` to install all recorded dependencies.
+
+Stacktrace:
+ [1] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1089
+ [2] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [3] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+ [4] include
+   @ ./Base.jl:418 [inlined]
+ [5] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+   @ Base ./loading.jl:1318
+ [6] top-level scope
+   @ none:1
+ [7] eval
+   @ ./boot.jl:373 [inlined]
+ [8] eval(x::Expr)
+   @ Base.MainInclude ./client.jl:453
+ [9] top-level scope
+   @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/StatsBase/pJqvO/src/StatsBase.jl:1
+ERROR: LoadError: Failed to precompile StatsBase [2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/StatsBase/jl_Kgm750.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include
+    @ ./Base.jl:418 [inlined]
+  [8] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+  [9] top-level scope
+    @ none:1
+ [10] eval
+    @ ./boot.jl:373 [inlined]
+ [11] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [12] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/Distributions/N1Ika/src/Distributions.jl:1
+ERROR: LoadError: Failed to precompile Distributions [31c24e10-a181-5473-b8eb-7969acd0382f] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/Distributions/jl_dcE4WB.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include
+    @ ./Base.jl:418 [inlined]
+  [8] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+  [9] top-level scope
+    @ none:1
+ [10] eval
+    @ ./boot.jl:373 [inlined]
+ [11] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [12] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/DiffEqBase/S7V8q/src/DiffEqBase.jl:1
+ERROR: LoadError: Failed to precompile DiffEqBase [2b5f629d-d688-5b77-993f-72d75c75574e] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/DiffEqBase/jl_yedJSr.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include
+    @ ./Base.jl:418 [inlined]
+  [8] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+  [9] top-level scope
+    @ none:1
+ [10] eval
+    @ ./boot.jl:373 [inlined]
+ [11] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [12] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OrdinaryDiffEq/ZBye7/src/OrdinaryDiffEq.jl:1
+ERROR: LoadError: Failed to precompile OrdinaryDiffEq [1dea7af3-3e70-54e6-95c3-0bf5283fa5ed] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/OrdinaryDiffEq/jl_JcEmZK.
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:33
+  [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+    @ Base ./loading.jl:1466
+  [3] compilecache(pkg::Base.PkgId, path::String)
+    @ Base ./loading.jl:1410
+  [4] _require(pkg::Base.PkgId)
+    @ Base ./loading.jl:1120
+  [5] require(uuidkey::Base.PkgId)
+    @ Base ./loading.jl:1013
+  [6] require(into::Module, mod::Symbol)
+    @ Base ./loading.jl:997
+  [7] include(mod::Module, _path::String)
+    @ Base ./Base.jl:418
+  [8] include(x::String)
+    @ OpenQuantumSystems ~/.julia/packages/OpenQuantumSystems/4MMUN/src/OpenQuantumSystems.jl:1
+  [9] top-level scope
+    @ ~/.julia/packages/OpenQuantumSystems/4MMUN/src/OpenQuantumSystems.jl:294
+ [10] include
+    @ ./Base.jl:418 [inlined]
+ [11] include_package_for_output(pkg::Base.PkgId, input::String, depot_path::Vector{String}, dl_load_path::Vector{String}, load_path::Vector{String}, concrete_deps::Vector{Pair{Base.PkgId, UInt64}}, source::String)
+    @ Base ./loading.jl:1318
+ [12] top-level scope
+    @ none:1
+ [13] eval
+    @ ./boot.jl:373 [inlined]
+ [14] eval(x::Expr)
+    @ Base.MainInclude ./client.jl:453
+ [15] top-level scope
+    @ none:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/4MMUN/src/timeevolution_base.jl:1
+in expression starting at /storage/brno11-elixir/home/hermanda/.julia/packages/OpenQuantumSystems/4MMUN/src/OpenQuantumSystems.jl:1
+ERROR: LoadError: Failed to precompile OpenQuantumSystems [90e503ea-487f-4e8e-81fe-8dcc9db25ac5] to /storage/brno11-elixir/home/hermanda/.julia/compiled/v1.7/OpenQuantumSystems/jl_IKtSZE.
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:33
+ [2] compilecache(pkg::Base.PkgId, path::String, internal_stderr::IO, internal_stdout::IO, ignore_loaded_modules::Bool)
+   @ Base ./loading.jl:1466
+ [3] compilecache(pkg::Base.PkgId, path::String)
+   @ Base ./loading.jl:1410
+ [4] _require(pkg::Base.PkgId)
+   @ Base ./loading.jl:1120
+ [5] require(uuidkey::Base.PkgId)
+   @ Base ./loading.jl:1013
+ [6] require(into::Module, mod::Symbol)
+   @ Base ./loading.jl:997
+in expression starting at /auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_1_50_005/main.jl:2
