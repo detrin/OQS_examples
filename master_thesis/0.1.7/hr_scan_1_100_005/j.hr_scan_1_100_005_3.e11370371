@@ -1,0 +1,70 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+ERROR: failed to fetch from https://github.com/detrin/OpenQuantumSystems.jl#master, error: GitError(Code:ERROR, Class:OS, failed to create locked file '/auto/brno11-elixir/home/hermanda/.julia/clones/14151603110628524955/refs/remotes/cache/heads/gh-pages.lock': File exists)
+Stacktrace:
+  [1] pkgerror(msg::String)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:68
+  [2] fetch(io::IOStream, repo::LibGit2.GitRepo, remoteurl::String; header::Nothing, credentials::Nothing, refspecs::Vector{String}, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.GitTools /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/GitTools.jl:172
+  [3] (::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String})(repo::LibGit2.GitRepo)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:700
+  [4] with(f::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String}, obj::LibGit2.GitRepo)
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/types.jl:1150
+  [5] handle_repo_add!(ctx::Pkg.Types.Context, pkg::Pkg.Types.PackageSpec)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:676
+  [6] handle_repos_add!(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:743
+  [7] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:248
+  [8] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:149
+  [9] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [10] #add#26
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [11] add
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [12] add(; name::Nothing, uuid::Nothing, version::Nothing, url::String, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:166
+ [13] top-level scope
+    @ none:1
+
+caused by: GitError(Code:ERROR, Class:OS, failed to create locked file '/auto/brno11-elixir/home/hermanda/.julia/clones/14151603110628524955/refs/remotes/cache/heads/gh-pages.lock': File exists)
+Stacktrace:
+  [1] macro expansion
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/error.jl:110 [inlined]
+  [2] fetch(rmt::LibGit2.GitRemote, refspecs::Vector{String}; options::LibGit2.FetchOptions, msg::String)
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/remote.jl:299
+  [3] fetch(repo::LibGit2.GitRepo; remote::String, remoteurl::SubString{String}, refspecs::Vector{String}, credentials::Nothing, callbacks::Dict{Symbol, Tuple{Ptr{Nothing}, Any}})
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/LibGit2.jl:293
+  [4] fetch(io::IOStream, repo::LibGit2.GitRepo, remoteurl::String; header::Nothing, credentials::Nothing, refspecs::Vector{String}, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.GitTools /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/GitTools.jl:165
+  [5] (::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String})(repo::LibGit2.GitRepo)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:700
+  [6] with(f::Pkg.Types.var"#42#43"{Pkg.Types.Context, Pkg.Types.PackageSpec, String}, obj::LibGit2.GitRepo)
+    @ LibGit2 /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/LibGit2/src/types.jl:1150
+  [7] handle_repo_add!(ctx::Pkg.Types.Context, pkg::Pkg.Types.PackageSpec)
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:676
+  [8] handle_repos_add!(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.Types /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/Types.jl:743
+  [9] add(ctx::Pkg.Types.Context, pkgs::Vector{Pkg.Types.PackageSpec}; preserve::Pkg.Types.PreserveLevel, platform::Base.BinaryPlatforms.Platform, kwargs::Base.Pairs{Symbol, IOStream, Tuple{Symbol}, NamedTuple{(:io,), Tuple{IOStream}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:248
+ [10] add(pkgs::Vector{Pkg.Types.PackageSpec}; io::IOStream, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:149
+ [11] add(pkgs::Vector{Pkg.Types.PackageSpec})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:144
+ [12] #add#26
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [13] add
+    @ /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:141 [inlined]
+ [14] add(; name::Nothing, uuid::Nothing, version::Nothing, url::String, rev::Nothing, path::Nothing, mode::Pkg.Types.PackageMode, subdir::Nothing, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ Pkg.API /cvmfs/software.metacentrum.cz/spack1/software/julia/linux-centos7-x86_64/1.7.0-gcc-rdhfzd/share/julia/stdlib/v1.7/Pkg/src/API.jl:166
+ [15] top-level scope
+    @ none:1
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/brno11-elixir/home/hermanda/.julia/environments/v1.7/Manifest.toml`
