@@ -1,0 +1,17 @@
+kirke14.meta.zcu.cz
+kirke14.meta.zcu.cz
+/auto/brno2/home/hermanda/OQS_examples/master_thesis/0.1.7/hr_scan_2_pc_n1
+kirke14.meta.zcu.cz
+data hr_scan_1.ipynb main.jl makefile mc_run.sh submited_jobs update_julia.sh
+n 1
+hr1 0.05
+hr2 0.05
+running Evolution_sI_exact
+running QME_sI_ansatz_test
+running QME_sI_ansatz_const_int
+running QME_sI_iterative/1/none/population_coherences/true
+running QME_sI_iterative/2/none/population_coherences/true
+
+**********************************************************************************************************
+
+The SCRATCHes have been SUCCESSFULLY cleaned...

@@ -1,0 +1,14 @@
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+    Updating registry at `~/.julia/registries/General.toml`
+    Updating git-repo `https://github.com/detrin/OpenQuantumSystems.jl#master`
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Project.toml`
+  No Changes to `/auto/plzen1/home/hermanda/.julia/environments/v1.7/Manifest.toml`
+=>> PBS: job killed: walltime 172851 exceeded limit 172800
